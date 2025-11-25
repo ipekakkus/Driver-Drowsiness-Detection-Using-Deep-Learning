@@ -1,4 +1,4 @@
-Driver Drowsiness Detection Using Deep Learning
+## **Driver Drowsiness Detection Using Deep Learning**
 
 This project focuses on developing a robust driver drowsiness detection system using state-of-the-art deep learning models. The goal is to identify drowsy vs non-drowsy driver states from facial images, evaluate model performance across datasets, and analyze generalization capability beyond a single environment.
 
