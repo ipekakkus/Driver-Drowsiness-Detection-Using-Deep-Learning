@@ -34,8 +34,8 @@ Each model was:
 2. DDD (Driver Drowsiness Dataset)
   Used for cross-dataset generalization experiments.
   Contains 41,000+ labeled images categorized into:
-  - Drowsy
-  - Non Drowsy
+      - Drowsy
+      - Non Drowsy
     
 This dataset helps test whether a model trained on NTHU-DDD generalizes to a different environment, lighting condition, and subject pool.
 
