@@ -55,7 +55,6 @@ Additionally, the project includes:
 - Side-by-side metric comparisons
 - Generalization drop charts (Δ between datasets)
 - Multi-metric summary visualizations
-- Radar charts showing metric “shape” differences
 - Inference speed (images/sec)
 - Total evaluation time per model
 
@@ -71,36 +70,3 @@ Full evaluation on two datasets with detailed visualizations.
 ✔ Reproducible experiments
 
 All scripts follow the same pipeline structure and can be re-run easily.
-
-📁 **Repository Structure**
-
-Driver-Drowsiness-Detection/
-│
-├── models/
-│   ├── resnet50v2_final.keras
-│   ├── mobilenetv2_final.keras
-│   ├── efficientnetb0_final.keras
-│   └── nasnetmobile_final.keras
-│
-├── notebooks/
-│   ├── 1_data_preprocessing.ipynb
-│   ├── 2_training_pipeline.ipynb
-│   ├── 3_cross_dataset_evaluation.ipynb
-│   └── model_comparison.ipynb   <-- this is your main comparison notebook
-│
-├── scripts/
-│   ├── dataset_loader.py
-│   ├── training_script.py
-│   ├── evaluation_utils.py
-│   └── visualization_utils.py
-│
-├── results/
-│   ├── metrics/
-│   ├── confusion_matrices/
-│   ├── roc_curves/
-│   ├── generalization_plots/
-│   └── timing_summary.csv
-│
-└── README.md
-
-
